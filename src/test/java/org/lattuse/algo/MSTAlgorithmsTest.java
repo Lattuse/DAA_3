@@ -1,6 +1,12 @@
 package org.lattuse.algo;
 
 import org.junit.jupiter.api.*;
+import org.lattuse.algo.algorithms.KruskalAlgorithm;
+import org.lattuse.algo.algorithms.PrimAlgorithm;
+import org.lattuse.algo.base.Edge;
+import org.lattuse.algo.base.Graph;
+import org.lattuse.algo.model.MSTResult;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.*;
