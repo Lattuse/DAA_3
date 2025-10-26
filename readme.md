@@ -1,8 +1,9 @@
 # MST Algorithms Analytical Report
-## Overview
+
 Developed by: Mukashev Sultanbek
 
 Group: SE-2422
+## Overview
 
 This project implements and benchmarks two well-known Minimum Spanning Tree (MST) algorithms — Prim’s and Kruskal’s — on a diverse set of weighted undirected graphs. The goal is to compare the algorithms’ efficiency and performance both theoretically and empirically.
 
