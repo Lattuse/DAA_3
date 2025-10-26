@@ -3,6 +3,9 @@ import com.google.gson.*;
 import java.util.*;
 import java.io.*;
 
+// reminder: do the images both for vertices-edges graphs and also plots for time complexity and etc
+// I don't remember if we need plots but anyway
+
 public class Main {
     public static void main(String[] args) throws Exception {
         List<Graph> graphs = IOHandler.loadGraphs("datasets/graphs_dataset.json");
