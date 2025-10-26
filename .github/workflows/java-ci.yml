@@ -41,9 +41,7 @@ jobs:
 
 
       - name: Run MST algorithms
-        run: |
-          java -cp target/classes:target/dependency/* org.lattuse.algo.Main
-        working-directory: ${{ github.workspace }}
+        run: mvn compile exec:java -Dexec.mainClass=org.lattuse.algo.Main
 
 
       - name: Upload MST results
